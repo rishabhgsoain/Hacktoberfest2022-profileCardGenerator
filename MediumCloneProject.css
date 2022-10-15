@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    background-color: #FFC017;
+    /*overflow: hidden;*/
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    /* border-top: 0; */
+    border-bottom: 1px solid;
+    /* margin: 0 auto; */
+}
+
+.navBar a {
+    font-size: 14px;
+    float: right;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-weight: 400;
+    color: RGB(25, 25, 25);
+    margin: 25px 30px 0px 0px;
+
+}
+
+.button {
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    font-size: 16px;
+    vertical-align: middle;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+.upperPart {
+    height: 400px;
+    width: 1490px;
+    background-color: #FFC017;
+    display: block;
+    /* position: relative; */
+    line-height: 24px;
+    padding: 7px 20px 9px;
+    vertical-align: baseline;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.text h2 {
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 90px;
+    line-height: 95px;
+    vertical-align: baseline;
+    letter-spacing: -5.3px;
+    margin-right: 300px;
+    width: 700px;
+    font-weight: 400;
+}
+
+.text h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    vertical-align: baseline;
+    margin-top: -40px;
+    margin-right: 300px;
+    width: 500px;
+    margin-left: 130px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.text button {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    font-size: 24px;
+    vertical-align: baseline;
+    border-radius: 30px;
+    align-content: center;
+    width: 200px;
+    height: 35px;
+    font-weight: 400;
+    margin-right: 1050px;
+    margin-top: 10px;
+}
+
+.middlePart {
+    margin-top: 60px;
+    margin-left: 90px;
+    font-size: 12px;
+    color: #292929;
+    color: rgb(41, 41, 41);
+    line-height: 16px;
+    vertical-align: baseline;
+    letter-spacing: 0.996px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: start;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.middlePart img {
+    height: 15px;
+    width: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.info {
+    /* width: 1500px; */
+    margin-top: 20px;
+    margin-left: 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.info-card {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    justify-items: start;
+    gap: 20px;
+}
+
+.num {
+    font-size: 30px;
+    color: rgb(230, 230, 230);
+    line-height: 36px;
+    vertical-align: baseline;
+    font-weight: 700;
+    grid-area: 1/1/span 2/span 1;
+}
+
+.head {
+    margin-top: 10px;
+    color: rgb(41, 41, 41);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: 500;
+    vertical-align: baseline;
+    text-align: start;
+    line-height: 16px;
+}
+.info-txt{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #414141;
+}
+.neeche{
+    margin-top: 50px;
+    margin-right: 50px;
+    display: grid;
+    float: right;
+    grid-template-columns: repeat(3,1fr);
+    gap: 12px;
+    margin-right: 190px;
+    position:sticky;
+    top: 100px;
+    
+}
+.neeche-button{
+    background-color: white;
+    border-radius: 3px;
+    border: 0.1px solid;
+    align-content: center;
+    color: rgb(117, 117, 117);
+    
+   
+}
+
+.major{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.part1 img{
+    margin-left: 600px;
+    margin-top: 50px;
+    width: 150px;
+    height: 100px;
+    aspect-ratio: auto 150 / 100;
+    vertical-align: middle;
+}
+.major-info{
+    margin-top: -120px;
+    margin-left: 130px;
+    width: 400px;
+
+}
+.major-info p{
+    color: #414141;
+    font-size: 13px;
+    font-weight: 500;
+    vertical-align: baseline;
+}
+.major-info h1{
+    color: #414141;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    vertical-align: baseline;
+}
+.major-info h2{
+    color: rgb(117, 117, 117);
+    font-size:16px;
+    line-height: 20px;
+    font-weight: 400;
+}
